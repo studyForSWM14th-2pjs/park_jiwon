@@ -1,8 +1,8 @@
 # 1주차
 * 백준
-    * [ ] [1966](https://www.acmicpc.net/problem/1966)
-    * [ ] [14501](https://www.acmicpc.net/problem/14501)
-    * [ ] [1003](https://www.acmicpc.net/problem/1003)
+    * [x] [1966](https://www.acmicpc.net/problem/1966)
+    * [x] [14501](https://www.acmicpc.net/problem/14501)
+    * [x] [1003](https://www.acmicpc.net/problem/1003)
     * [ ] [11399](https://www.acmicpc.net/problem/11399)
     * [ ] [12865](https://www.acmicpc.net/problem/12865)
     * [ ] [2606(추가문제)](https://www.acmicpc.net/problem/2606)
