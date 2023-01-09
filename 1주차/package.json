@@ -1,0 +1,13 @@
+{
+  "name": "1week",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1966.js",
+  "scripts": {
+    "1966":"node 1966.js < 1966.in",
+    "14501-1":"node 14501.js < 14501.in1;",
+    "14501":"node 14501.js < 14501.in1;node 14501.js < 14501.in2;node 14501.js < 14501.in3;node 14501.js < 14501.in4;"
+  },
+  "author": "",
+  "license": "ISC"
+}
