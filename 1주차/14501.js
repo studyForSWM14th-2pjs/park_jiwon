@@ -6,10 +6,8 @@ let max = -1;
 let include = Array(N).fill(null);
 
 const calcMaxBenefit = i =>{
-    if(i==N){
-        let cur = input.reduce((a,c,i)=>a+(include[i]==true?c[1]:0),0);
-        max = max > cur ? max : cur;
-    }
+    if(i==N)
+        max = Math.max(max,input.reduce((a,c,i)=>a+(include[i]==true?c[1]:0),0));
     else{
         include[i] = true;
         if(i+input[i][0]<=N)
