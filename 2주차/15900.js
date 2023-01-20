@@ -16,11 +16,11 @@ while(queue.length){
         total += depth[cur];
         continue;
     }
-    graph[cur].forEach(e=>{
-        if(depth[e]==-1){
-            depth[e] = depth[cur]+1;
-            queue.push(e);
-        }
+    graph[cur]
+    .filter(e=>depth[e]==-1)
+    .forEach(e=>{
+        depth[e] = depth[cur]+1;
+        queue.push(e);
     });
 }
 
