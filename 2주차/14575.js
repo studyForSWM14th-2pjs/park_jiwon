@@ -13,8 +13,6 @@ input.forEach(([a,b])=>{
 
 if(LSum>T||RSum<T) return console.log(-1);
 
-input.sort((a,b)=>a[0]-b[0]);
-
 const check = S => {
     let sum = 0;
     input.forEach(([a,b])=>{
